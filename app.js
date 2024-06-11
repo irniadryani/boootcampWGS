@@ -13,8 +13,9 @@ rl.question("Input Nama: ", (nama) => {
       if (!validator.isEmail(email) || !validator.isMobilePhone(notelp)) {
         console.log("Email atau nomor telepon salah");
         rl.close();
+      }else {
+        console.log(`Nama anda ${nama}, nomor telepon anda ${notelp} dan email anda ${email}`);
       }
-      return false;
     });
   });
 });
