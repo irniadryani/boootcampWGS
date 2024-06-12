@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2,
+    "nama": "user2",
+    "email": "user2@gmail.com",
+    "noTelp": "08678988"
+  },
+  {
+    "id": 1,
+    "nama": "bolu2",
+    "email": "bolu1@gmail.com",
+    "noTelp": "123456"
+  }
+]
